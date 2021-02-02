@@ -1,0 +1,32 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Khaleds Quiz</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="question-container" class="hide">
+            <img class="question" src=" " id="question"></img>
+            <h1>vem är denna stjärnan?</h1>
+            <div id="answer-buttons" class="btn-grid">
+                <button class="btn"></button>
+            </div>
+        </div>
+
+        <div class="controls"></div>
+        <button id="start-btn" class="start-btn btn">Start</button>
+        <button id="next-btn" class="next-btn btn hide">Next</button>
+        <h1 id="score-board">
+            <p>Your score is</p>
+            Wrongs <p id="wrong-score">0</p>
+            Correct <p id="correct-score">0</p>
+        </h1>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+
+</html>
